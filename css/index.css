@@ -1,0 +1,230 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+.nav{
+    width: 100%;
+    background: linear-gradient(#ee4d2d,#ff7337);
+    box-shadow: 0px 0px 0px 1px rgb(210, 209, 209);
+    height: 60px;
+    position: relative;
+    z-index: 999;
+}
+.title{
+    position: relative;
+    display: flex;
+}
+.admin{
+    padding: 0 50px;
+    font-weight: 400;
+}
+.admin a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon{
+    position: absolute;
+    right: 0px;
+    padding: 20px 30px;
+    display: flex;
+    cursor: pointer;
+    color: #fff;
+}
+.fa-user, .fa-sort-down{
+    justify-content: center;
+    align-items: center;
+}
+.fa-user{
+    margin-right: 5px;
+}
+.content{
+    display: flex;
+}
+.aside{
+    width: 300px;
+    background-color: #e8ebed;
+    position: absolute;
+    box-shadow: 0px 0px 0px 1px rgb(210, 209, 209);
+    height: 100%;
+    
+}
+.listMenu{
+    list-style: none;
+    
+}
+.listMenu li{
+    border-bottom: 1px solid rgb(212, 209, 209);
+    padding: 15px 25px;
+    color: #666;
+    
+}
+.list-small{
+    display: block;
+    border: none;
+    padding: 12px 0;
+}
+.list-small{
+    color: #666;
+}
+.listContainer{
+    display: none;
+}
+.listContainer.active{
+    display: block;
+    background-color: #e8ebed;
+}
+.list-small2{
+    display: block;
+    border: none;
+    padding: 12px 0;
+}
+.listContainer2{
+    display: none;
+}
+.listContainer2.active{
+    display: block;
+    background-color:  #e8ebed;
+}
+.list-small3{
+    display: block;
+    border: none;
+    padding: 12px 0;
+}
+.listContainer3{
+    display: none;
+}
+.listContainer3.active{
+    display: block;
+    background-color:  #e8ebed;
+}
+.fa-chevron-down{
+    position: absolute;
+    right: 10px;
+}
+.listMenu li a{
+    text-decoration: none;
+    color: #666;
+}
+
+.listMenu li:hover{
+    /* border: 1px solid gray;
+    background-color: #d7dadc; */
+    cursor: pointer;
+}
+.fa-circle{
+    font-size: 9px;
+}
+
+/* Thân */
+.artical{
+    margin-left: 320px;
+}
+.add{
+    margin-top: 3px;
+    margin-right: 40px;
+    padding: 10px 0;
+    color: #666;
+    border-bottom: 1px solid #eee;
+}
+.form-text{
+    margin-top: 40px;
+    font-size: 14px;
+}
+.input-text{
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    outline: none;
+    border: 1px solid rgba(221, 221, 221, 1);
+    padding: 0 15px;
+    border-radius: 4px;
+}
+#mota{
+    width: 625px;
+    outline: none;
+    border: 1px solid rgba(221, 221, 221, 1);
+    border-radius: 4px;
+}
+.button-maloai input{
+    background-color: #ff7337;
+    outline: none;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-color: rgb(208, 204, 204);
+    margin-bottom: 10px;
+}
+.title-id{
+    padding: 10px 15px;
+    width: 80px;
+}
+.title-table{
+    padding: 10px 15px;
+    width: 150px;
+    
+}
+.title-product{
+    text-align: center;
+    padding: 10px 0;
+}
+th{
+    background-color: #ff7337;
+    color: #fff;
+    
+}
+.title-table.text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px; /* Điều chỉnh chiều rộng tối đa của phần tên sản phẩm */
+    position: relative;
+}
+td{
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 14px;
+   
+}
+td a{
+    text-decoration: none;
+    color: #ff7337;
+}
+.fa-pencil, .fa-trash-can{
+    color: #333;
+}
+span{
+    color: red;
+}
+.search{
+    height: 25px;
+    width: 250px;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 3px;
+}
+.list{
+    height: 27px;
+    outline: none;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 3px;
+}
+.input_search{
+    border: none;
+    height: 25px;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #ff7337;
+    background-color: #ff7337;
+}
+
